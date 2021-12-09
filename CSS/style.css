@@ -1,0 +1,110 @@
+body{
+    font-family: sans-serif, arial;
+}
+#herois{
+    width: 1060px;
+    margin: auto;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+img{
+    width: 100px;
+    border-bottom-style: solid;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.personagem{
+    width: 100px;
+    margin: 20px;
+    border-style: solid;
+    border-radius: 16px;
+    text-align: center;
+    float: left;
+}
+.series{
+    padding: 10px;
+    margin: auto;
+}
+.retangulo{
+    clear: both;
+} 
+.header{
+    background-image: url(../imagem/marvel.jpg);
+    background-position: center;
+    height: 250px;
+    background-color: white;
+    border-bottom: 3px solid red;
+    border-top: 1px solid transparent;
+}
+.header input[type="text"]{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+.header input[type="submit"]{
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+.find{
+    clear: left;
+    margin-left: 50px;
+    color: white;
+}
+.title, .name{
+    text-transform: uppercase;
+    float: left;
+    margin-top: 50px;
+}
+.header-title{
+    width: 65%;
+    float: left;
+    margin: 0 0 70px 20px;
+}
+.header-name{
+    width: 30%;
+    float: left;
+}
+.name{
+    width: 350px;
+    color: white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .8);
+    border: 2px solid rgba(0,0,0, .5);
+    border-radius: 5px;
+}
+.title{
+    width: 500px;
+    font-size: 35px;
+    padding: 10px 0 10px 20px;
+    background-color: rgba(255, 0, 0, .5);
+    border-radius: 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.main-footer{
+    height: 100px;
+    background-color:white;
+    border-top: 2px solid red;
+    margin-top: 200px;;
+}
+footer i{
+    color: black;
+    font-size: 40px;
+    margin: 30px 0 0 100px;
+}
+footer i[class="fa fa-chevron-circle-left"]{
+    color: black;
+    font-size: 40px;
+    padding: 0;
+    margin: 0 0 0 550px;
+}
+footer button{
+    padding: 20px;
+    color: black;
+    font-size: 40px;
+    padding: 0;
+}
+
+
